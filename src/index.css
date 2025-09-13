@@ -1,6 +1,103 @@
-.bg-blue{
+.bg-blue {
   background-color: #312d89 !important;
 }
-.text-blue{
+
+.text-blue {
   color: #312d89 !important;
+}
+
+.stats-card {
+  border-radius: 15px;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.stats-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2f2f9d;
+}
+
+.stats-text {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #555;
+  font-weight: 600;
+}
+
+/* Background colors */
+.bg-light-pink {
+  background-color: #fdeeff;
+}
+
+.bg-light-yellow {
+  background-color: #fff9e6;
+}
+
+.bg-light-green {
+  background-color: #eafff1;
+}
+
+.bg-light-blue {
+  background-color: #eaf3ff;
+}
+
+footer {
+  background-color: #312D89 !important;
+}
+
+.test-img img,
+.could-img img {
+  border-radius: 50% !important;
+}
+
+.card-test {
+  background-color: #D6FBFD !important;
+}
+
+.test-hd h1,
+.our-hd h1,
+.could-hd h1 {
+  color: #312D89 !important;
+  font-size: 60px !important;
+}
+
+.our-imghd h4,
+.soft-hd h1,
+.software-hd h1 {
+  color: #312D89 !important;
+}
+
+.our-img img {
+  border-radius: 20px !important;
+  height: 400px !important;
+  width: 300px !important;
+  object-fit: cover;
+}
+
+.could-btn button {
+  background-color: #D6FBFD !important;
+}
+
+.could-last {
+  margin-top: 20px !important;
+}
+
+.software {
+  background-image: linear-gradient(252deg,
+      rgba(255, 241, 255, 1) 20.03%,
+      rgba(234, 255, 243, 1) 58.07%,
+      rgba(255, 250, 233, 1) 58.08%,
+      rgba(234, 255, 243, 1) 95.81%) !important;
+
+}.our-over{
+  position: relative;
+}
+.overly:hover{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #ffffff5e;
+  height: 100%;
 }
