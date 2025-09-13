@@ -14,11 +14,12 @@ function App() {
     <>
       <Header />
       <Router>
-        <nav className="navbar navbar-expand-lg bg-white py-3 mb-4">
-          <div className="container">
-            <a className="navbar-brand" href="#">Avenue Design</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg bg-  background: linear-gradient(to right, #ecfdf5, #fff1f2);
+ py-3 mb-4">
+          <div class="container">
+            <a class="navbar-brand" href="#">Avenue Design</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
@@ -55,7 +56,7 @@ function App() {
           <Route path="/contact" element={<Contact></Contact>}></Route>
         </Routes>
       </Router>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
